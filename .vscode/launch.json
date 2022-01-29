@@ -13,7 +13,7 @@
                     // 4000-6000: RAM: smaller slot of 8192
                     // 6000-8000: None
                     // 8000-FFFF: paged, 16 banks of 32K
-                    { "range": [0, "3FFFh"], "rom": "rom.hex" },
+                    { "range": [0, "3FFFh"], "rom": "${workspaceFolder}/main.bin" },
                     { "range": ["4000h", "5FFFh"] },
                     { "range": ["8000h", "FFFFh"], "banked": {
                         "count": 16,
@@ -25,16 +25,21 @@
                     } }
                 ]
             },
-            "sjasmplus": [
-                {
-                    "path": "z80-sample-program.sld"
-                }
-            ],
             "history": {
                 "reverseDebugInstructionCount": 1000000,
                 "spotCount": 10,
                 "codeCoverageEnabled": true
             },
+            "z88dk": [
+                {
+                    "path": "${workspaceFolder}/main.lis",
+                    "mainFile": "${workspaceFolder}/main.asm",
+                    "mapFile": "${workspaceFolder}/main.map",
+                    "srcDirs": [
+                        "${workspaceFolder}"
+                    ]
+                }
+            ],
             "startAutomatically": false,
             "commandsAfterLaunch": [
                 "-logpoint enable",
@@ -45,9 +50,6 @@
                 "esxdosRst": true
             },
             "rootFolder": "${workspaceFolder}",
-            "topOfStack": "stack_top",
-            //"load": "z80-sample-program.sna",
-            "load": "z80-sample-program.nex",
             "smallValuesMaximum": 513,
             "tmpDir": ".tmp"
         },

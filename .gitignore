@@ -1,4 +1,6 @@
-*.obj
-.DS_Store
 .vscode/settings.json
 .tmp/
+*.map
+*.o
+*.bin
+*.lis

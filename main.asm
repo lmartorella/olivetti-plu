@@ -2,19 +2,7 @@
 ; main.asm
 ;===========================================================================
 
-    SLDOPT COMMENT WPMEM, LOGPOINT, ASSERTION
-
-NEX:    equ 1   ;  1=Create nex file, 0=create sna file
-
-    ORG 0x4000
-    defs 0x6000 - $    ; move after screen area
-
-
-;===========================================================================
-; Include modules
-;===========================================================================
-    ; include "unit_tests.asm"
-
+    ORG 0x0000
 
 ;===========================================================================
 ; main routine - the code execution starts here.
@@ -22,17 +10,13 @@ NEX:    equ 1   ;  1=Create nex file, 0=create sna file
 ; banks and jumps to the start loop.
 ;===========================================================================
 
-
- defs 0x7800 - $
- ORG $7800
-
-main:
+boot:
     ; Disable interrupts
-    rst 0
     di
-    di
-    di
-    ld sp,stack_top
+    ld sp, stack_top
+    ld a,12
+    push af
+    pop af
 
 main_loop:
     ; Alternatively wait on vertical interrupt
@@ -47,13 +31,7 @@ main_loop:
 
 
 ; Stack: this area is reserved for the stack
-STACK_SIZE: equ 100    ; in words
+stack_top: equ $6000 - $100
 
-
-; Reserve stack space
-    defw 0  ; WPMEM, 2
-stack_bottom:
-    defs    STACK_SIZE*2, 0
-stack_top:
-    ;defw 0
-    defw 0  ; WPMEM, 2
+End:
+    ds 4000h-End,255

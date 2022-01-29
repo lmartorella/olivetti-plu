@@ -2,27 +2,15 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "sjasmplus",
+            "label": "z88dk",
             "type": "shell",
-            "command": "C:\\Users\\lucia\\Desktop\\sjasmplus-1.18.3.win\\sjasmplus",
+            "command": "C:\\Users\\lucia\\Desktop\\z88dk-win32-2.1\\z88dk\\bin\\z88dk-z80asm",
             "args": [
-                "--sld=z80-sample-program.sld",
-                "--fullpath",
+                "-b",
+                "-l",
+                "-m", // map
                 "main.asm"
             ],
-            "problemMatcher": {
-                "fileLocation": [
-                    "relative",
-                    "${workspaceRoot}"
-                ],
-                "pattern": {
-                    "regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "severity": 3,
-                    "message": 4
-                }
-            },
             "group": {
                 "kind": "build",
                 "isDefault": true
