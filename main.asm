@@ -1,8 +1,11 @@
 ;===========================================================================
 ; main.asm
 ;===========================================================================
-
     ORG 0x0000
+
+    jp boot
+
+    include "ram_test.asm"
 
 ;===========================================================================
 ; main routine - the code execution starts here.
@@ -13,6 +16,7 @@
 boot:
     ; Disable interrupts
     di
+    jp stack_setup
 
     ; Before using the common bank, test it
     ld de, common_bank_bottom
@@ -42,21 +46,27 @@ loop1:
     or c
     jnz loop1
 
-    halt
-
+    jp stack_setup
 error:
     halt
 
+stack_setup:
+    ld sp, stack_bot
+    call ram_test
+    halt
 
 common_bank_bottom: equ $4000
 common_bank_size equ $2000
-;===========================================================================
-; Stack.
-;===========================================================================
-
+common_bank_top: equ common_bank_bottom + common_bank_size
+stack_size: equ $200
+rom_size: equ $4000
 
 ; Stack: this area is reserved for the stack
-stack_top: equ $6000 - $100
+stack_top: equ common_bank_top - stack_size
+stack_bot: equ common_bank_top
+banked_size: equ $8000
+banked_bot: equ $8000
 
-End:
-    ds 4000h-End,255
+save_sp: equ common_bank_bottom
+
+    ds rom_size - $, $ff
