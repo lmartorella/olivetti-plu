@@ -18,7 +18,7 @@
                     { "range": ["8000h", "FFFFh"], "banked": {
                         "count": 16,
                         "control": {
-                            "ioPort": "80h",
+                            "ioPort8": "80h",
                             "ioBitMap": [0, 1, 2, 3],
                             "readWrite": false
                         }

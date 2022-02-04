@@ -35,9 +35,11 @@ read_bank:
     dec a
     out (c), a
 
-    ld bc, banked_size / 2
+    ld bc, banked_size
     ld hl, banked_bot
 read_byte:
+    ld a, d
+    dec a
     cpi
     jnz err
 
