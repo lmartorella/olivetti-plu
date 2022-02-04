@@ -36,7 +36,7 @@
                     "mainFile": "${workspaceFolder}/main.asm",
                     "mapFile": "${workspaceFolder}/main.map",
                     "srcDirs": [
-                        "${workspaceFolder}"
+                        ""
                     ]
                 }
             ],
