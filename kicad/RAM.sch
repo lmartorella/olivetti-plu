@@ -1,0 +1,1032 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_RAM:KM62256CLP U1
+U 1 1 5FCCE7A8
+P 1700 1750
+F 0 "U1" H 1700 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 1700 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 1700 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 1700 1650 50  0001 C CNN
+	1    1700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U4
+U 1 1 5FCD2C38
+P 2900 1750
+F 0 "U4" H 2900 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 2900 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 2900 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 2900 1650 50  0001 C CNN
+	1    2900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U6
+U 1 1 5FCD330D
+P 4100 1750
+F 0 "U6" H 4100 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 4100 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 4100 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 4100 1650 50  0001 C CNN
+	1    4100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U8
+U 1 1 5FCD39E9
+P 5300 1750
+F 0 "U8" H 5300 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 5300 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 5300 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 5300 1650 50  0001 C CNN
+	1    5300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U10
+U 1 1 5FCD3EB9
+P 6550 1750
+F 0 "U10" H 6550 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 6550 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 6550 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 6550 1650 50  0001 C CNN
+	1    6550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U12
+U 1 1 5FCD4695
+P 7800 1750
+F 0 "U12" H 7800 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 7800 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 7800 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 7800 1650 50  0001 C CNN
+	1    7800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U14
+U 1 1 5FCD4BB7
+P 9000 1750
+F 0 "U14" H 9000 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 9000 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 9000 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 9000 1650 50  0001 C CNN
+	1    9000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U16
+U 1 1 5FCD5249
+P 10250 1750
+F 0 "U16" H 10250 2831 50  0000 C CNN
+F 1 "KM62256CLP" H 10250 2740 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 10250 1650 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 10250 1650 50  0001 C CNN
+	1    10250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U2
+U 1 1 5FCD5737
+P 1700 3850
+F 0 "U2" H 1700 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 1700 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 1700 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 1700 3750 50  0001 C CNN
+	1    1700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U5
+U 1 1 5FCD5EC9
+P 2900 3850
+F 0 "U5" H 2900 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 2900 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 2900 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 2900 3750 50  0001 C CNN
+	1    2900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U7
+U 1 1 5FCD6606
+P 4100 3850
+F 0 "U7" H 4100 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 4100 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 4100 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 4100 3750 50  0001 C CNN
+	1    4100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U9
+U 1 1 5FCD6E86
+P 5300 3850
+F 0 "U9" H 5300 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 5300 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 5300 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 5300 3750 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U11
+U 1 1 5FCD7451
+P 6550 3850
+F 0 "U11" H 6550 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 6550 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 6550 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 6550 3750 50  0001 C CNN
+	1    6550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U15
+U 1 1 5FCD84F9
+P 9000 3850
+F 0 "U15" H 9000 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 9000 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 9000 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 9000 3750 50  0001 C CNN
+	1    9000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM:KM62256CLP U17
+U 1 1 5FCD898B
+P 10250 3850
+F 0 "U17" H 10250 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 10250 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 10250 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 10250 3750 50  0001 C CNN
+	1    10250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L olivetti-library:HM6264CLP U3
+U 1 1 5FCD92D2
+P 1700 6350
+F 0 "U3" H 1700 7431 50  0000 C CNN
+F 1 "HM6264ALP" H 1700 7340 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 1700 6250 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 1700 6250 50  0001 C CNN
+	1    1700 6350
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	2400 1050 2400 2750
+Wire Bus Line
+	800  2750 800  4850
+Wire Bus Line
+	3600 1050 3600 2750
+Wire Bus Line
+	3600 2750 3400 2750
+Connection ~ 2400 2750
+Wire Bus Line
+	4800 1050 4800 2750
+Wire Bus Line
+	4800 2750 4600 2750
+Connection ~ 3600 2750
+Wire Bus Line
+	6050 1050 6050 2750
+Wire Bus Line
+	6050 2750 5800 2750
+Connection ~ 4800 2750
+Wire Bus Line
+	7300 1050 7300 2750
+Wire Bus Line
+	7300 2750 7050 2750
+Connection ~ 6050 2750
+Wire Bus Line
+	8500 1050 8500 2750
+Wire Bus Line
+	8500 2750 8300 2750
+Connection ~ 7300 2750
+Wire Bus Line
+	9750 1050 9750 2750
+Wire Bus Line
+	9750 2750 9500 2750
+Connection ~ 8500 2750
+Connection ~ 800  4850
+Wire Bus Line
+	800  4850 800  5000
+Wire Bus Line
+	2400 3150 2400 4850
+Wire Bus Line
+	2400 4850 2200 4850
+Wire Bus Line
+	3600 3150 3600 4850
+Connection ~ 2400 4850
+Wire Bus Line
+	4800 3150 4800 4850
+Connection ~ 3600 4850
+Wire Bus Line
+	6050 3150 6050 4850
+Wire Bus Line
+	3600 4850 4600 4850
+Connection ~ 4800 4850
+Wire Bus Line
+	4800 4850 5800 4850
+Wire Bus Line
+	7300 3150 7300 4850
+Wire Bus Line
+	7300 4850 7050 4850
+Connection ~ 6050 4850
+Wire Bus Line
+	8500 3150 8500 4850
+Wire Bus Line
+	8500 4850 8300 4850
+Connection ~ 7300 4850
+Wire Bus Line
+	9750 3150 9750 4850
+Wire Bus Line
+	9750 4850 9500 4850
+Connection ~ 8500 4850
+Wire Bus Line
+	800  2750 1200 2750
+Connection ~ 1200 2750
+Wire Bus Line
+	1200 2750 2200 2750
+Wire Bus Line
+	2200 2150 2200 2750
+Connection ~ 2200 2750
+Wire Bus Line
+	2200 2750 2400 2750
+Wire Bus Line
+	3400 2150 3400 2750
+Connection ~ 3400 2750
+Wire Bus Line
+	3400 2750 2400 2750
+Wire Bus Line
+	4600 2150 4600 2750
+Connection ~ 4600 2750
+Wire Bus Line
+	4600 2750 3600 2750
+Wire Bus Line
+	5800 2150 5800 2750
+Connection ~ 5800 2750
+Wire Bus Line
+	5800 2750 4800 2750
+Wire Bus Line
+	7050 2150 7050 2750
+Connection ~ 7050 2750
+Wire Bus Line
+	7050 2750 6050 2750
+Wire Bus Line
+	8300 2150 8300 2750
+Connection ~ 8300 2750
+Wire Bus Line
+	8300 2750 7300 2750
+Wire Bus Line
+	9500 2150 9500 2750
+Connection ~ 9500 2750
+Wire Bus Line
+	9500 2750 8500 2750
+Wire Bus Line
+	9500 4250 9500 4850
+Connection ~ 9500 4850
+Wire Bus Line
+	9500 4850 8500 4850
+Wire Bus Line
+	8300 4250 8300 4850
+Connection ~ 8300 4850
+Wire Bus Line
+	8300 4850 7300 4850
+Wire Bus Line
+	7050 4250 7050 4850
+Connection ~ 7050 4850
+Wire Bus Line
+	7050 4850 6050 4850
+Wire Bus Line
+	5800 4250 5800 4850
+Connection ~ 5800 4850
+Wire Bus Line
+	5800 4850 6050 4850
+Wire Bus Line
+	4600 4250 4600 4850
+Connection ~ 4600 4850
+Wire Bus Line
+	4600 4850 4800 4850
+Wire Bus Line
+	3400 4250 3400 4850
+Wire Bus Line
+	2400 4850 3400 4850
+Connection ~ 3400 4850
+Wire Bus Line
+	3400 4850 3600 4850
+Wire Bus Line
+	2200 4250 2200 4850
+Connection ~ 2200 4850
+Wire Bus Line
+	10750 2150 10750 2750
+Wire Bus Line
+	10750 2750 9750 2750
+Connection ~ 9750 2750
+Wire Bus Line
+	10750 4250 10750 4850
+Wire Bus Line
+	10750 4850 9750 4850
+Wire Bus Line
+	9750 4850 9750 4800
+Connection ~ 9750 4850
+Wire Wire Line
+	2200 1950 2300 1950
+Wire Wire Line
+	3400 1950 3500 1950
+Wire Wire Line
+	3500 1950 3500 5000
+Wire Wire Line
+	3500 5000 7750 5000
+Wire Wire Line
+	4600 1950 4700 1950
+Wire Wire Line
+	4700 1950 4700 4950
+Wire Wire Line
+	4700 4950 7850 4950
+Wire Wire Line
+	5800 1950 5850 1950
+Wire Wire Line
+	7050 1950 7200 1950
+Wire Wire Line
+	8300 1950 8400 1950
+Wire Wire Line
+	8400 1950 8400 6700
+Wire Wire Line
+	9650 6600 9650 1950
+Wire Wire Line
+	9650 1950 9500 1950
+Wire Wire Line
+	10750 1950 10950 1950
+Wire Bus Line
+	9500 800  9500 1750
+Wire Bus Line
+	1200 800  1200 2750
+Wire Bus Line
+	1200 800  2200 800 
+Connection ~ 9500 800 
+Wire Bus Line
+	9500 800  10750 800 
+Wire Bus Line
+	8300 1750 8300 800 
+Connection ~ 8300 800 
+Wire Bus Line
+	8300 800  9500 800 
+Wire Bus Line
+	10750 1750 10750 800 
+Wire Bus Line
+	7050 1750 7050 800 
+Connection ~ 7050 800 
+Wire Bus Line
+	7050 800  8300 800 
+Wire Bus Line
+	5800 1700 5800 800 
+Connection ~ 5800 800 
+Wire Bus Line
+	5800 800  7050 800 
+Wire Bus Line
+	4600 1750 4600 800 
+Connection ~ 4600 800 
+Wire Bus Line
+	4600 800  5800 800 
+Wire Bus Line
+	3400 1750 3400 800 
+Connection ~ 3400 800 
+Wire Bus Line
+	3400 800  4600 800 
+Wire Bus Line
+	2200 1750 2200 800 
+Connection ~ 2200 800 
+Wire Bus Line
+	2200 800  3400 800 
+Wire Bus Line
+	2200 3850 2200 2750
+Wire Bus Line
+	3400 3850 3400 2750
+Wire Bus Line
+	4600 3850 4600 2750
+Wire Bus Line
+	5800 3850 5800 2750
+Wire Bus Line
+	7050 3850 7050 2750
+Wire Bus Line
+	8300 3850 8300 2750
+Wire Bus Line
+	9500 3850 9500 2750
+Wire Bus Line
+	10750 3850 10750 2750
+Connection ~ 10750 2750
+Wire Wire Line
+	2200 4050 2250 4000
+Wire Wire Line
+	2250 4000 2250 5400
+Wire Wire Line
+	2250 5400 8050 5400
+Wire Wire Line
+	3400 4050 3450 4050
+Wire Wire Line
+	3450 4050 3450 5500
+Wire Wire Line
+	4600 4050 4650 4050
+Wire Wire Line
+	4650 4050 4650 4900
+Wire Wire Line
+	5800 4050 5900 4050
+Wire Wire Line
+	7050 4050 7100 4050
+Wire Wire Line
+	7100 4050 7100 5300
+Wire Wire Line
+	7100 5300 8600 5300
+Wire Wire Line
+	9500 4050 9600 4050
+Wire Bus Line
+	2200 5350 1200 5350
+Wire Bus Line
+	800  5350 800  4850
+Wire Bus Line
+	1200 6850 1200 5350
+Connection ~ 1200 5350
+Wire Bus Line
+	1200 5350 800  5350
+Wire Bus Line
+	1200 6850 950  6850
+Wire Bus Line
+	950  6850 950  7400
+Wire Bus Line
+	2200 7400 2200 6850
+Wire Wire Line
+	2800 6550 2200 6550
+$Comp
+L Device:R R1
+U 1 1 5FDDCAF1
+P 2450 6900
+F 0 "R1" H 2520 6946 50  0000 L CNN
+F 1 "1k" H 2520 6855 50  0000 L CNN
+F 2 "" V 2380 6900 50  0001 C CNN
+F 3 "~" H 2450 6900 50  0001 C CNN
+	1    2450 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5FDDD7F6
+P 2450 7050
+F 0 "#PWR01" H 2450 6800 50  0001 C CNN
+F 1 "GND" H 2455 6877 50  0000 C CNN
+F 2 "" H 2450 7050 50  0001 C CNN
+F 3 "" H 2450 7050 50  0001 C CNN
+	1    2450 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6750 2450 6650
+Text GLabel 2450 6250 2    50   Input ~ 0
+RAM_CS
+Wire Bus Line
+	800  4850 1200 4850
+Wire Bus Line
+	1200 3150 1200 4850
+Connection ~ 1200 4850
+Wire Bus Line
+	1200 4850 2200 4850
+Connection ~ 1200 7400
+Entry Wire Line
+	1200 9550 1300 9650
+$Comp
+L Memory_EPROM:27C256 U21
+U 1 1 5FDF08F4
+P 1700 9150
+F 0 "U21" H 1700 10431 50  0000 C CNN
+F 1 "27C256" H 1700 10340 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 1700 9150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf" H 1700 9150 50  0001 C CNN
+	1    1700 9150
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1300 8250 1400 8250
+Wire Bus Line
+	1400 8250 1400 8300
+Wire Bus Line
+	1200 7400 950  7400
+Wire Bus Line
+	1200 7400 2200 7400
+Wire Bus Line
+	1200 7400 1200 7650
+Text Label 1150 9650 0    50   ~ 0
+WE
+Wire Bus Line
+	1200 7650 2100 7650
+Connection ~ 1200 7650
+Wire Wire Line
+	1300 9950 1100 9950
+Wire Wire Line
+	1100 9950 1100 10350
+Wire Bus Line
+	1200 10050 1300 10050
+Wire Wire Line
+	1700 8050 1050 8050
+Wire Wire Line
+	1050 8050 1050 9850
+Wire Wire Line
+	1050 9850 1300 9850
+Text Notes 800  10500 0    50   ~ 0
+On 27C128 (right size) 27 is /PGM -> /WE\n
+Wire Bus Line
+	1300 9550 1300 8250
+Wire Bus Line
+	1200 9550 1200 10050
+Wire Bus Line
+	1200 7650 1200 9550
+Connection ~ 1200 9550
+Wire Bus Line
+	1200 9550 1300 9550
+Wire Wire Line
+	2200 6650 2450 6650
+Connection ~ 2450 6650
+Wire Wire Line
+	2450 6650 2450 6250
+$Comp
+L 74xx:74LS04 U29
+U 1 1 5FFCA0E7
+P 3450 8300
+F 0 "U29" H 3450 8617 50  0000 C CNN
+F 1 "74LS04" H 3450 8526 50  0000 C CNN
+F 2 "" H 3450 8300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3450 8300 50  0001 C CNN
+	1    3450 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U32
+U 2 1 5FFE2460
+P 4300 8200
+F 0 "U32" H 4300 8525 50  0000 C CNN
+F 1 "74LS32" H 4300 8434 50  0000 C CNN
+F 2 "" H 4300 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4300 8200 50  0001 C CNN
+	2    4300 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 8300 4000 8300
+Text GLabel 3950 8100 0    50   Input ~ 0
+~MREQ
+$Comp
+L power:VCC #VBAT01
+U 1 1 5FD0B5D6
+P 800 800
+F 0 "#VBAT01" H 888 837 50  0000 L CNN
+F 1 "VCC" H 888 837 50  0001 L CNN
+F 2 "" H 800 800 50  0001 C CNN
+F 3 "" H 800 800 50  0001 C CNN
+	1    800  800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 850  9000 850 
+Wire Wire Line
+	7800 850  6550 850 
+Wire Wire Line
+	5300 850  6550 850 
+Connection ~ 6550 850 
+Wire Wire Line
+	7800 850  9000 850 
+Connection ~ 7800 850 
+Connection ~ 9000 850 
+Wire Wire Line
+	5300 850  4100 850 
+Connection ~ 5300 850 
+Wire Wire Line
+	4100 850  2900 850 
+Connection ~ 4100 850 
+Wire Wire Line
+	2900 850  1700 850 
+Wire Wire Line
+	800  850  800  800 
+Connection ~ 2900 850 
+Connection ~ 1700 850 
+Wire Wire Line
+	1700 850  800  850 
+$Comp
+L power:VCC #VBAT02
+U 1 1 5FD73853
+P 950 2900
+F 0 "#VBAT02" H 1038 2937 50  0000 L CNN
+F 1 "VCC" H 1038 2937 50  0001 L CNN
+F 2 "" H 950 2900 50  0001 C CNN
+F 3 "" H 950 2900 50  0001 C CNN
+	1    950  2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2900 950  2950
+Wire Wire Line
+	950  2950 1700 2950
+Wire Wire Line
+	1700 2950 2900 2950
+Connection ~ 1700 2950
+Wire Wire Line
+	2900 2950 4100 2950
+Connection ~ 2900 2950
+Wire Wire Line
+	4100 2950 5300 2950
+Connection ~ 4100 2950
+Wire Wire Line
+	6550 2950 5300 2950
+Connection ~ 5300 2950
+Connection ~ 6550 2950
+Wire Wire Line
+	10250 2950 9000 2950
+Connection ~ 9000 2950
+$Comp
+L power:VCC #VBAT03
+U 1 1 5FDF46EB
+P 1700 5200
+F 0 "#VBAT03" H 1788 5237 50  0000 L CNN
+F 1 "VCC" H 1788 5237 50  0001 L CNN
+F 2 "" H 1700 5200 50  0001 C CNN
+F 3 "" H 1700 5200 50  0001 C CNN
+	1    1700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5450 1700 5200
+Wire Wire Line
+	2300 5050 7950 5050
+Wire Wire Line
+	2300 1950 2300 5050
+Wire Wire Line
+	10850 4050 10750 4050
+Text GLabel 3100 8300 0    50   Input ~ 0
+A15
+Wire Wire Line
+	3100 8300 3150 8300
+Wire Wire Line
+	3050 9650 2550 9650
+Wire Wire Line
+	2550 9550 3050 9550
+Wire Wire Line
+	2550 9650 2550 9700
+Wire Bus Line
+	2100 7650 2100 9200
+$Comp
+L power:VCC #PWR?
+U 1 1 5FE18597
+P 2550 9550
+F 0 "#PWR?" H 2550 9400 50  0001 C CNN
+F 1 "VCC" H 2565 9723 50  0000 C CNN
+F 2 "" H 2550 9550 50  0001 C CNN
+F 3 "" H 2550 9550 50  0001 C CNN
+	1    2550 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE18A5B
+P 2550 9700
+F 0 "#PWR?" H 2550 9450 50  0001 C CNN
+F 1 "GND" H 2555 9527 50  0000 C CNN
+F 2 "" H 2550 9700 50  0001 C CNN
+F 3 "" H 2550 9700 50  0001 C CNN
+	1    2550 9700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 9050 0    50   Input ~ 0
+A13
+Text GLabel 2900 9150 0    50   Input ~ 0
+A14
+Text GLabel 2900 9250 0    50   Input ~ 0
+A15
+Wire Wire Line
+	3050 9050 2900 9050
+Wire Wire Line
+	2900 9150 3050 9150
+Wire Wire Line
+	3050 9250 2900 9250
+Text GLabel 2900 9750 0    50   Input ~ 0
+~MREQ
+Wire Wire Line
+	2900 9750 3050 9750
+$Comp
+L 74xx:74LS08 U22
+U 1 1 5FE363E0
+P 4700 9150
+F 0 "U22" H 4700 9475 50  0000 C CNN
+F 1 "74LS08" H 4700 9384 50  0000 C CNN
+F 2 "" H 4700 9150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4700 9150 50  0001 C CNN
+	1    4700 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U20
+U 1 1 5FDD628B
+P 3550 9350
+F 0 "U20" H 3550 10131 50  0000 C CNN
+F 1 "74LS138" H 3550 10040 50  0000 C CNN
+F 2 "" H 3550 9350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 3550 9350 50  0001 C CNN
+	1    3550 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 9050 4050 9050
+Wire Wire Line
+	4050 9150 4300 9150
+Wire Wire Line
+	4300 9150 4300 9250
+Wire Wire Line
+	4300 9250 4400 9250
+Wire Wire Line
+	5000 9150 5000 10350
+Wire Wire Line
+	5000 10350 1100 10350
+Wire Wire Line
+	2800 8550 4150 8550
+Wire Wire Line
+	4150 8550 4150 9250
+Wire Wire Line
+	4150 9250 4050 9250
+Wire Wire Line
+	2800 6550 2800 8550
+Wire Wire Line
+	3950 8100 4000 8100
+Wire Wire Line
+	10950 1950 10950 7300
+Wire Bus Line
+	2200 6350 2200 5350
+Wire Wire Line
+	3550 7150 3900 7150
+Text GLabel 3550 7150 0    50   Input ~ 0
+MEM_STB
+Wire Wire Line
+	3700 7250 3900 7250
+Wire Wire Line
+	3700 5950 3700 7250
+Wire Wire Line
+	4400 5950 3700 5950
+NoConn ~ 4900 6950
+NoConn ~ 4900 6850
+NoConn ~ 4900 6750
+Wire Wire Line
+	4900 6550 5000 6550
+Wire Wire Line
+	4900 6650 5250 6650
+Text GLabel 5250 6650 2    50   Input ~ 0
+PIO_PB5
+Wire Bus Line
+	3900 6950 3900 6250
+Wire Bus Line
+	3850 6950 3900 6950
+Wire Wire Line
+	6350 6250 4900 6250
+$Comp
+L 74xx:74LS273 U30
+U 1 1 5FEEEF04
+P 4400 6750
+F 0 "U30" H 4400 7731 50  0000 C CNN
+F 1 "74LS273" H 4400 7640 50  0000 C CNN
+F 2 "" H 4400 6750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 4400 6750 50  0001 C CNN
+	1    4400 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6450 4900 6450
+Wire Wire Line
+	6150 6800 6150 6450
+Wire Wire Line
+	7750 5000 7750 7000
+Wire Wire Line
+	7750 7000 7650 7000
+Wire Wire Line
+	7850 4950 7850 7200
+Wire Wire Line
+	7850 7200 7650 7200
+Wire Wire Line
+	8300 6900 7650 6900
+Wire Wire Line
+	8400 6700 7650 6700
+Wire Wire Line
+	10950 7300 7650 7300
+Wire Wire Line
+	6350 7850 6850 7850
+Wire Wire Line
+	6650 6700 6250 6700
+Wire Wire Line
+	6250 7950 6850 7950
+Wire Wire Line
+	6650 6800 6150 6800
+Wire Wire Line
+	6150 8050 6850 8050
+Wire Wire Line
+	6650 7200 6450 7200
+Wire Wire Line
+	6450 7200 6450 8450
+Wire Wire Line
+	6650 7100 6550 7100
+Wire Wire Line
+	8050 8550 7850 8550
+Wire Wire Line
+	8800 8250 7850 8250
+Wire Wire Line
+	8150 8050 7850 8050
+Wire Wire Line
+	9600 7950 7850 7950
+Wire Wire Line
+	6650 6600 6350 6600
+Wire Wire Line
+	7650 6600 9650 6600
+Connection ~ 6150 6800
+Wire Wire Line
+	6150 6800 6150 8050
+Wire Wire Line
+	6550 8350 6850 8350
+Wire Wire Line
+	6850 8550 5000 8550
+Wire Wire Line
+	6450 8450 6850 8450
+Connection ~ 6450 8450
+Wire Wire Line
+	7950 5050 7950 7100
+Wire Wire Line
+	7950 7100 7650 7100
+Wire Wire Line
+	8050 5400 8050 8550
+Wire Wire Line
+	6450 8450 4600 8450
+Wire Wire Line
+	4600 8450 4600 8200
+Wire Wire Line
+	8600 8150 7850 8150
+Wire Wire Line
+	8600 5300 8600 8150
+Wire Wire Line
+	4900 6350 6250 6350
+Wire Wire Line
+	10850 4050 10850 7850
+Wire Wire Line
+	7850 7850 10850 7850
+Wire Wire Line
+	9600 4050 9600 7950
+$Comp
+L 74xx:74LS138 U19
+U 1 1 5FD5B61D
+P 7350 8150
+F 0 "U19" H 7350 8931 50  0000 C CNN
+F 1 "74LS138" H 7350 8840 50  0000 C CNN
+F 2 "" H 7350 8150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 7350 8150 50  0001 C CNN
+	1    7350 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4900 8700 8350
+Wire Wire Line
+	8700 8350 7850 8350
+Wire Wire Line
+	3450 5500 8900 5500
+Wire Wire Line
+	8900 5500 8900 8450
+Wire Wire Line
+	8900 8450 7850 8450
+Wire Wire Line
+	5000 6550 5000 7300
+Wire Wire Line
+	5150 7300 5000 7300
+Connection ~ 5000 7300
+Wire Wire Line
+	5000 7300 5000 8550
+$Comp
+L 74xx:74LS04 U29
+U 2 1 5FF6E8DF
+P 5450 7300
+F 0 "U29" H 5450 7617 50  0000 C CNN
+F 1 "74LS04" H 5450 7526 50  0000 C CNN
+F 2 "" H 5450 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5450 7300 50  0001 C CNN
+	2    5450 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 7300 5750 7300
+Wire Wire Line
+	6550 7100 6550 7750
+Wire Wire Line
+	2450 6650 3050 6650
+Wire Wire Line
+	3050 6650 3050 7750
+Connection ~ 6350 6600
+Wire Wire Line
+	6350 6600 6350 6250
+Wire Wire Line
+	6350 6600 6350 7850
+Wire Wire Line
+	6250 6700 6250 6350
+Connection ~ 6250 6700
+Wire Wire Line
+	6250 6700 6250 7950
+$Comp
+L 74xx:74LS138 U18
+U 1 1 5FD08442
+P 7150 6900
+F 0 "U18" H 7150 7681 50  0000 C CNN
+F 1 "74LS138" H 7150 7590 50  0000 C CNN
+F 2 "" H 7150 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 7150 6900 50  0001 C CNN
+	1    7150 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1950 7200 5700
+Wire Wire Line
+	7200 5700 7650 5700
+Wire Wire Line
+	7650 5700 7650 6800
+Wire Wire Line
+	9000 2950 7800 2950
+Wire Wire Line
+	7800 2950 6550 2950
+Connection ~ 7800 2950
+$Comp
+L Memory_RAM:KM62256CLP U13
+U 1 1 5FCD7D06
+P 7800 3850
+F 0 "U13" H 7800 4931 50  0000 C CNN
+F 1 "KM62256CLP" H 7800 4840 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 7800 3750 50  0001 C CNN
+F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 7800 3750 50  0001 C CNN
+	1    7800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1950 5850 5200
+Wire Wire Line
+	5850 5200 8300 5200
+Wire Wire Line
+	8300 5200 8300 6900
+Wire Wire Line
+	5900 4050 5900 5100
+Wire Wire Line
+	5900 5100 8800 5100
+Wire Wire Line
+	8800 5100 8800 8250
+Wire Wire Line
+	8150 4750 8350 4750
+Wire Wire Line
+	8350 4750 8350 4050
+Wire Wire Line
+	8350 4050 8300 4050
+Wire Wire Line
+	4650 4900 8700 4900
+Wire Wire Line
+	8150 4750 8150 8050
+Connection ~ 6550 7750
+Wire Wire Line
+	6550 7750 6550 8350
+Wire Wire Line
+	3050 7750 6550 7750
+Text Notes 6850 6400 0    50   ~ 0
+HC
+Text Notes 7000 7700 0    50   ~ 0
+HC
+$Comp
+L power:VCC #VBAT?
+U 1 1 5FD70BD6
+P 7150 6300
+F 0 "#VBAT?" H 7238 6337 50  0000 L CNN
+F 1 "VCC" H 7238 6337 50  0001 L CNN
+F 2 "" H 7150 6300 50  0001 C CNN
+F 3 "" H 7150 6300 50  0001 C CNN
+	1    7150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #VBAT?
+U 1 1 5FD7B33E
+P 7350 7550
+F 0 "#VBAT?" H 7438 7587 50  0000 L CNN
+F 1 "VCC" H 7438 7587 50  0001 L CNN
+F 2 "" H 7350 7550 50  0001 C CNN
+F 3 "" H 7350 7550 50  0001 C CNN
+	1    7350 7550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
