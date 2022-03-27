@@ -94,9 +94,9 @@ The implemented memory paging allows bank switching in the upper half of address
 
 ![](./doc/ram.jpg)
 
-The arrangement of the `A13` line of the equipped `27C256 EPROM` is quite strange: it is actually connected to the `/WR` line, matching the same pin-out of the static RAM chips. Since `/WR` is always high during read cycles, a `16kB ROM` would always be accessed in the higher addresses. The rom dump confirms that the program is only contained in the upper `8kB` of the ROM addressing space.
+The arrangement of the `A14` line of the equipped `27C256 EPROM` is quite strange: it is actually connected to the `/WR` line, matching the same pin-out of the static RAM chips. Since `/WR` is always high during read cycles, a `32kB ROM` would always be accessed in the higher addresses. The rom dump confirms that the program is only contained in the upper `16kB` of the ROM addressing space.
  
-Fitting a proper `27C128 EPROM` will expect the low-voltage `/PGM` line at that pin. So perhaps the board was originally designed for `8kB` ROMs, and the Olivetti designers connected the `/WR` line for symmetry of RAM chips: since the `Vpp` line is hard linked to `5V`, on-board programming is anyway impossible.
+Fitting a proper `27C128 EPROM` will expect the low-voltage `/PGM` line at that pin. So perhaps the board was originally designed for `16kB` ROMs, and the Olivetti designers connected the `/WR` line for symmetry of RAM chips: since the `Vpp` line is hard linked to `5V`, on-board programming is anyway impossible.
  
 Another design peculiarity is the way the dedicated `U18/U19` chips drives the `/CS` RAM lines down when not in use. These drivers are of `CMOS` technology, since they must be powered by battery power when the board is disconnected or the main system is not powered. These line drivers are required to ensure the `62256 CMOS` static RAMs remains in low power mode to avoid to drain the batteries. When the board is installed and the main system is powered up, the line `RAM_CS` should logically receive `Vcc`, so all RAM chips are enabled for use.
 
