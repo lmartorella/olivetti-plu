@@ -8,20 +8,20 @@
             "remoteType": "zsim",
             "zsim": {
                 "visualMemory": true,
-                "memoryModel": [
+                "memoryModel": "CUSTOM",
+                "customMemory": [
                     // 0-3FFF: 8kB ROM mirrored two times
                     // 4000-6000: RAM: smaller slot of 8192
                     // 6000-8000: None
                     // 8000-FFFF: paged, 16 banks of 32K
-                    { "range": [0, "1FFFh"], "rom": "${workspaceFolder}/reng/PLU10.HEX", "romOffset": "4000h", "name": "ROM" },
-                    { "range": ["2000h", "3FFFh"], "rom": "${workspaceFolder}/reng/PLU10.HEX", "romOffset": "4000h", "name": "ROM mirror" },
+                    { "range": [0, "1FFFh"], "rom": "${workspaceFolder}/reng/PLU10.HEX", "romOffset": "2000h", "name": "ROM" },
+                    { "range": ["2000h", "3FFFh"], "rom": "${workspaceFolder}/reng/PLU10.HEX", "romOffset": "2000h", "name": "ROM mirror" },
                     { "range": ["4000h", "5FFFh"], "name": "Common" },
                     { "range": ["8000h", "FFFFh"], "banked": {
                         "count": 16,
-                        "control": {
-                            "ioPort": { "mask": "FFh", "match": "80h" },
-                            "ioBitMap": [0, 1, 2, 3],
-                            "readWrite": false
+                        "ioMmu": {
+                            "port": { "mask": "FFh", "match": "80h" },
+                            "bitMap": [0, 1, 2, 3]
                         }
                     } }
                 ]
